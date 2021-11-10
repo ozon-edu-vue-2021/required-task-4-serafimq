@@ -24,10 +24,15 @@ export default {
   box-sizing: border-box;
 }
 
+html {
+  overflow-x: hidden;
+  min-height: 100%;
+}
+
 html,
 body,
 #app {
-  height: 100%;
+  height: auto;
 }
 
 * {
